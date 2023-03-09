@@ -6,3 +6,5 @@ mkdir -m751 my_dir
 mkdir -m751 my_dir
 #!/bin/bash
 -m751 my_dir
+#!/bin/bash
+mkdir -m751 my_dir
