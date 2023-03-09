@@ -1,1 +1,1 @@
-shell permissions
+7-everybody
