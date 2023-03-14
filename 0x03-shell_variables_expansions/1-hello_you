@@ -1,4 +1,3 @@
 #!/bin/bash
 USER=root
 echo "Hello "
-
