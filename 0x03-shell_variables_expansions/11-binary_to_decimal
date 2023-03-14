@@ -3,3 +3,10 @@ BINARY=""
 DECIMAL=0
 echo 
 
+#!/bin/bash
+import os
+
+binary = os.getenv("BINARY")
+decimal = int(binary, 2)
+print(decimal)
+
