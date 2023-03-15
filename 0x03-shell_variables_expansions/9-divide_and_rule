@@ -1,6 +1,2 @@
 #!/bin/bash
-POWER=""
-DIVIDE=""
-RESULT=
-echo 
-
+echo $(($POWER / $DIVIDE))
