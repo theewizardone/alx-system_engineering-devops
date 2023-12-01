@@ -1,0 +1,15 @@
+#!/bin/bash
+#sends a DELETE request to the URL passed as the first argument and displays the body of the response
+
+if [ $# -ne 1 ]; then
+  echo "Please provide a URL as an argument."
+  exit 1
+f
+url=$1
+response=$(curl -X DELETE -s $url)
+if [ $? -eq 0 ]; then
+echo $response
+else
+  echo "Error: Failed to send DELETE request"
+  exit 1
+fi
