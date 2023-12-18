@@ -1,0 +1,18 @@
+A Journey from URL to Web page
+The journey begins with a Domain Name System (DNS) request. When you enter a URL, your browser needs to find the corresponding IP address of the server hosting the website. The DNS server translates the human-readable domain name (e.g., www.google.com) into a numerical IP address (e.g., 172.217.3.110).
+TCP/IP
+Once the browser has the IP address, it establishes a connection using the Transmission Control Protocol (TCP) within the Internet Protocol (IP) suite. TCP ensures reliable data delivery by breaking down the information into packets and managing their successful transmission and reassembly at the destination.
+Firewall
+Before the data packets can reach the destination server, they may encounter firewalls. Firewalls act as gatekeepers, filtering incoming and outgoing traffic based on predefined security rules. They protect the network from unauthorized access and potential threats.
+HTTPS/SSL
+In our modern era, security is paramount. Hypertext Transfer Protocol Secure (HTTPS) ensures a secure communication channel between your browser and the server. It encrypts the data exchanged, preventing eavesdropping and tampering. Secure Sockets Layer (SSL) or its successor, Transport Layer Security (TLS), is responsible for this encryption.
+Load-Balancer
+Many popular websites, like Google, handle enormous amounts of traffic. Load balancers distribute incoming requests across multiple servers to ensure optimal resource utilization, prevent server overload, and enhance reliability. This guarantees a seamless experience for users, even during peak times.
+Web Server
+Upon reaching the designated server, the web server processes the incoming request. It retrieves the requested web page, typically an HTML file, and sends it back to the user's browser. Common web servers include Apache, Nginx, and Microsoft IIS.
+Application Server
+Web pages often require dynamic content generated on-the-fly. This is where application servers come into play. They execute server-side code, such as PHP, Python, or Node.js, and interact with databases to fetch and manipulate data before sending it to the web server for delivery.
+Database
+For websites with dynamic content or interactive features, a database stores and retrieves information. Common databases include MySQL, PostgreSQL, and MongoDB. The application server communicates with the database to fetch or update data as needed to fulfill the user's request.
+Conclusion
+The journey from typing a URL to loading a web page is a symphony of technologies working seamlessly together. Understanding this process provides valuable insights into the robust infrastructure supporting our daily online interactions. Aspiring software engineers, grasp these concepts, and you'll be well on your way to navigating the intricate web stack.
