@@ -1,0 +1,7 @@
+b6e94c471b5652d7d05d0dd50e79984b
+avg:system.cpu.user{*}
+avg:system.cpu.user{*} by {service}
+Monitor Summary
+avg:system.cpu.user{*}
+
+
