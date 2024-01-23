@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+In this project, I learned about:
+- What is the main role of databases and db replica
+- What is a database replica and how to create one
+root@05d224a46ca7:~/alx-system_engineering-devops/0x14-mysql# cat 4-mysql_configuration_primary
+>>>>>>> 9ca172df389af22ec3595807516ef118313ba2bf
 # Copyright (c) 2014, 2022, Oracle and/or its affiliates.
 #
 # This program is free software; you can redistribute it and/or modify
